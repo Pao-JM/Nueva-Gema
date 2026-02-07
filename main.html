@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>NUEVA GEMA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/logo.svg" type="image/png">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav">
+  <div class="nav-left">
+    <a href="#projects">PROJECTS</a>
+    <a href="#talents">FACES</a>
+  </div>
+
+  <div class="nav-center">
+    <img src="img/logo.svg" alt="Nueva Gema">
+  </div>
+
+  <div class="nav-right">
+    <a href="#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<!-- INTRO EDITORIAL -->
+<section class="intro" id="inicio">
+  <h4 class="new_gem">NUEVA GEMA</h4>
+  <p>
+    Agencia de representación y desarrollo de talentos creativos.
+
+</p>
+</section>
+
+<!-- IMAGEN FULL -->
+<section class="hero-slider">
+    
+    <div class="slides">
+      <div class="slide">
+        <img src="img/bh.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/talent4.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/talent5.jpg" alt="">
+      </div>
+    </div>
+
+    <button class="nav-slide prev" onclick="prevSlide()">‹</button>
+    <button class="nav-slide next" onclick="nextSlide()">›</button>
+  </section>
+
+<!-- PROYECTOS -->
+<section class="section" id="projects">
+  <h3>PROYECTOS</h3>
+
+  <div class="grid">
+    <div class="item">
+      <img src="img/model1.jpg">
+      <p>Campaña creativa<br><span>Dirección artística</span></p>
+    </div>
+
+    <div class="item">
+      <img src="img/model2.jpg">
+      <p>Producción visual<br><span>Representación</span></p>
+    </div>
+    
+    <div class="item">
+      <img src="img/model3.jpg">
+      <p>Producción visual<br><span>Representación</span></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- TALENTOS -->
+<section class="section" id="talents">
+  <h3 class="text_talent">TALENTOS</h3>
+
+  <div class="grid">
+    <div class="item">
+      <img src="img/talent1.jpg">
+      <p>.....<br><span>Modelo</span></p>
+    </div>
+
+    <div class="item">
+      <img src="img/talent2.jpg">
+      <p>....<br><span>Directoro creativo</span></p>
+    </div>
+    <div class="item">
+        <img src="img/talent3.jpg">
+        <p>.....<br><span>Fotografo</span></p>
+    </div>
+  </div>
+</section class="intro" id="about">
+
+<!-- about -->
+<section class="presentation" id="about">
+
+        <div class="item_about">
+            <img src="img/bh.jpg">
+        </div>
+        <div class="content_textAbout">
+             <h3 class="new_gem">IM MIKAEL</h3>
+             <p>
+            Me especializo en desarrollar contenido y estrategias visuales que expresan la identidad de cada proyecto, combinando arte, propósito y estrategia para generar impacto. Mi formación en Artes Visuales me dio las bases para desarrollar la sensibilidad estética que define mi trabajo.
+             </p>
+        </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact" id="contact">
+  <h3>CONTACTO</h3>
+  <div class="contact_text">
+    <p>Escríbenos a hola@nuevagema.com</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span>© NUEVA GEMA · Caracas · 2026</span>
+  <a href="https://www.instagram.com/nueva.gema" target="_blank" rel="noopener">
+    INSTAGRAM
+  </a>
+</footer>
+</body>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
+</html>
